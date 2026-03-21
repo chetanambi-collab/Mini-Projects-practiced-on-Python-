@@ -23,7 +23,7 @@ for student in (students_data):
         students_grades[student] = "B"
     elif marks>50:
         students_grades[student] = "C"
-    elif marks>40:
+    elif marks<40:
         students_grades[student] = "Fail"
     else:
         students_grades[student] = "Wl"
